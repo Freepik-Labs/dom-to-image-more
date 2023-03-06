@@ -116,7 +116,7 @@
         }
 
         function clearCache(result) {
-            domtoimage.impl.urlCache = [];
+            // domtoimage.impl.urlCache = [];
             removeSandbox();
             return result;
         }
