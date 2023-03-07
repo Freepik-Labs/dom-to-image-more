@@ -737,6 +737,7 @@
                 if (domtoimage.impl.options.useCredentials) {
                     image.crossOrigin = 'use-credentials';
                 }
+                image.crossOrigin = "Anonymous";
                 image.onload = function () {
                     resolve(image);
                 };
